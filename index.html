@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<title>My Portfolio</title>
+</head>
+<body>
+  <!-- Header Section -->
+  <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top text-light">
+  <div class="container-xxl">
+  <span class="h2 mt-1">PORTFOLIO</span>
+   <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="bi bi-list mobile-nav-toggle"></i>
+   </button>
+   <div class="collapse navbar-collapse" id="toggleMobileMenu">
+     <ul class="navbar-nav ms-auto">
+       <li class="nav-item">
+        <a href="#" class="nav-link text-light">HOME</a>
+       </li>
+        <li class="nav-item">
+        <a href="#" class="nav-link text-light">ABOUT</a>
+       </li>
+        <li class="nav-item">
+        <a href="#" class="nav-link text-light">SERVICES</a>
+       </li>
+        <li class="nav-item">
+        <a href="#" class="nav-link text-light">BLOG</a>
+       </li>
+        <li class="nav-item">
+        <a href="#" class="nav-link text-light">CONTACT</a>
+       </li>
+     </ul>
+   </div>
+  </div>
+  </nav>
+
+  <!-- End navbar Section -->
+  <!-- body Section -->
+  <div class="images">
+    <div class="container">
+     <div class="row justify-content-center align-items-center">
+       <div class="col-md-5 text-center text-light">
+         <div class="body-parag">
+           <h1>Start living the life you deserve to live.</h1>
+           <a href="#!" class="btn">Book Now</a>
+         </div>
+
+       </div>
+     </div>
+    </div>
+  </div>
+
+  <!-- End body Section -->
+  <!-- About Section -->
+  <div class="about-sec">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-12">
+          <div class="shadowss">
+           <div class="im">
+             <img src="./image/100.jpg" class="imgg">
+           </div>
+           <div class="about-bodys">
+             <h1>About Me</h1>
+             <h4>Hi, I'm Mohammad Ramin.</h4>
+             <p>I'm a personal life coach and professional development mentor based in New York. My goal is to support people so they can become their best, richest, most fulfilled selves.</p>
+             <a href="#!" class="btnn">Read More</a>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End About Section -->
+  <!-- Contact Section -->
+   <div class="contact-sec">
+     <div class="container">
+       <div class="row">
+       <div class="col-md-4">
+         <div class="left-box">
+           <div class="box-title">
+             <h5 class="mb-4 mt-2">Let’s Talk</h5>
+             <p class="mt-5">Do you want to do more, be more, accomplish more, but don't know where to begin? I'm here to help you get started.  Don't wait another moment. The time is now. The person is you. Take the leap and start living.</p>
+           </div>
+         </div>
+         <div class="forms">
+           <form>
+            <div class="form-box">
+             <div class="mb-2">
+               <p>Name:</p>
+               <input type="text" name="name" id="name">
+             </div>
+             <div class="mb-2">
+               <p>Phone:</p>
+               <input type="number" name="number" id="number">
+             </div>
+              <div class="mb-2">
+               <p>Email</p>
+               <input type="text" name="email" id="email">
+             </div>
+               <div class="mb-2">
+               <p>what service are you intrest in?</p>
+               <input type="text" name="service" id="service">
+             </div>
+             <div class="mb-2">
+               <a href="#!" class="btn" onclick="openpop();">I'm Ready</a>
+             </div>
+           </div>
+           </form>
+             <div class="pop" id="pop">
+              <div class="pop-body">
+               <i class="bi bi-check2"></i>
+               <h2>Thank You!</h2>
+               <p>Your Details Has Benn Send Succesfully. I will Read it, Then Contact You Soon Thank You!</p>
+               <a href="#!" onclick="closepop();">OK</a>
+             </div>
+             </div>
+         </div>
+       </div>
+       </div>
+     </div>
+   </div>
+
+  <!-- End Contact Section -->
+    <!-- Servie -->
+    <div class="service">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-4">
+            <div class="ima">
+            <img src="./image/55.jpg" class="imag" height="250px" width="415px">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ima">
+            <img src="./image/56.jpg" class="imag" height="250px" width="415px">
+            </div>
+          </div>
+            <div class="col-md-4">
+            <div class="ima">
+            <img src="./image/57.jpg" class="imag" height="250px" width="415px">
+            </div>
+          </div>
+          <div class="button">
+            <a href="#!">Learn more</a>
+          </div>
+         </div>
+      </div>
+    </div>
+
+  <!-- End Service section -->
+  <h1 class="mt-4"></h1>
+  
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
