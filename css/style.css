@@ -519,5 +519,13 @@ form .btn:hover{
 .card img:hover{
     transform: scale(1.1);
 }
-
+@media screen and (max-width: 800px) {
+    #links{
+        position: absolute;
+        top: 97%;
+    }
+    #card4{
+        margin-top: 30px;
+    }
+}
 /* End Blog Section */
