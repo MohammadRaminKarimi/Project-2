@@ -459,7 +459,7 @@ form .btn:hover{
     transform: translate(-50%, -50%);
     text-decoration: none;
     font-size: 18px;
-    padding: 19px 70px;
+    padding: 19px 60px;
     color: #000;
     border: 1px solid #000;
 }
@@ -495,12 +495,45 @@ form .btn:hover{
         
 
     }
-
-
-
-    
-
-    
 }
 
 /* End Service Section */
+
+
+/* Blog Section */
+
+.card img{
+    transform: scale(1.0);
+    transition: .3s ease-in-out;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+}
+
+#links{
+    position: absolute;
+    top: 105%;
+}
+
+@media screen and (max-width: 700px) {
+    .rows {
+        position: relative;
+        left: 10%;
+    }
+    .card-body{
+        margin-left: -14px;
+    }
+
+    .card-body p{
+        width: 390px;
+    }
+
+    #links{
+        position: absolute;
+        top: 95%;
+        z-index: 999;
+    }
+}
+
+/* End Blog Section */
