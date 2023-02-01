@@ -498,34 +498,42 @@ form .btn:hover{
 }
 
 /* End Service Section */
-
-
-/* Blog Section */
-
-#links{
-    position: absolute;
-    top: 103%;
+.blogs {
+    position: relative;
+    margin-top: 5%;
 }
-
+.card{
+    margin: 1.8rem;
+}
 .card-body{
     margin-left: -10px;
+}
+.card-body p{
+    margin-top: 6px;
+    width: 400px;
 }
 
 .card img{
     transform: scale(1.0);
-    transition: .3s ease-in-out;
+    transform: .3s ease;
+    background-position: center;
 }
-
 .card img:hover{
     transform: scale(1.1);
 }
-@media screen and (max-width: 800px) {
-    #links{
-        position: absolute;
-        top: 97%;
+
+#links {
+    position: absolute;
+    top: 89%;
+}
+@media only screen and (max-width: 620px) {
+    .card-group{
+        margin-left: -10px;
     }
-    #card4{
-        margin-top: 30px;
+
+    .card-body{
+        margin-left: -13px;
     }
 }
+/* Blog Section */
 /* End Blog Section */
