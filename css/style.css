@@ -1,5 +1,8 @@
 /* Header Section */
 
+* {
+    box-sizing: border-box;
+}
 
 
 body{
@@ -498,9 +501,13 @@ form .btn:hover{
 }
 
 /* End Service Section */
+/* Blog Section */
 .blogs {
     position: relative;
     margin-top: 5%;
+}
+.card-group{
+    margin-top: 50px;
 }
 .card{
     margin: 1.8rem;
@@ -513,12 +520,12 @@ form .btn:hover{
     width: 400px;
 }
 
-.card img{
-    transform: scale(1.0);
-    transform: .3s ease;
+.card-img-top{
+    transform: scale(1);
+    transform: 0.3s ease-in-out;
     background-position: center;
 }
-.card img:hover{
+.card-img-top:hover{
     transform: scale(1.1);
 }
 
@@ -535,5 +542,148 @@ form .btn:hover{
         margin-left: -13px;
     }
 }
-/* Blog Section */
+
 /* End Blog Section */
+
+/* Footer Section */
+
+footer{
+    width: 100%;
+    height: 375px;
+    background-color: rgba(34,56,85,1);
+    margin-top: 10px;
+    color: #fff;
+}
+.footer{
+    position: relative;
+    left: 4%;
+    margin-top: 0%;
+}
+
+.footer ul li{
+    list-style: none;
+    line-height: 1.5em;
+}
+#head0{
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 6px;
+}
+#head1{
+    font-family: monospace;
+    font-size: 20px;
+}
+#head2{
+    font-family: monospace;
+    font-size: 20px;
+}
+#head3{
+   font-family: monospace;
+   font-size: 20px;
+}
+.link1{
+    margin-left: 38px;
+    margin-top: 18px;
+    line-height: 2em;
+    font-size: 15px;
+    white-space: initial;
+}
+
+.link2{
+    margin-left: -30px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.link3{
+    margin-left: -33px;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 17px;
+}
+
+.link3 a{
+    position: relative;
+    margin-top: 10%;
+    margin-left: -14px;
+    margin: 0.4rem;
+}
+.ico{
+    margin-left: -10px;
+}
+
+.link3 a i{
+    font-size: 26px;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+.footer::after{
+    content: "";
+    width: 210%;
+    height: 3px;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    border-bottom: 1px solid #fff;
+
+}
+
+#col4{
+    position: relative;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 700px) {
+    footer{
+        width: 100%;
+        height: 980px;
+    }
+
+    .footer{
+        position: relative;
+        left: 2%;
+    }
+    #pag1{
+        width: 380px;
+    }
+    #head1{
+       position: relative;
+       left: -8%;
+    }
+    .link1{
+       margin-left: -20px;
+    }
+    #head2{
+        margin-left: 5px;
+    }
+    .link2{
+        position: relative;
+        left: 1%;
+
+    }
+    #head3{
+        position: relative;
+        left: 1%;
+    }
+    .link3{
+        margin-left: -24px;
+    }
+
+    .footer::after{
+        position: absolute;
+        top: 103%;
+    }
+    #col4{
+      position: absolute;
+      top: 104%;
+    }
+}
+
+
+
+/* End Footer Section */
