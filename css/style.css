@@ -27,7 +27,6 @@ body{
     background-color: #00008b;
     color: #fff;
     transition: 0.3s;
-    height: 85px;
 }
 .navbar{
     margin-top: 10px;
@@ -46,11 +45,6 @@ body{
 }
 .navbar-nav{
     margin-right: 160px;
-    margin-top: 6px;
-}
-#logo{
-    position: relative;
-    margin-top: 20%;
 }
 .navbar span{
     margin-left: 60px;
@@ -578,6 +572,7 @@ footer{
 #head1{
     font-family: monospace;
     font-size: 20px;
+    margin-left: 64px;
 }
 #head2{
     font-family: monospace;
@@ -658,8 +653,7 @@ footer{
         width: 380px;
     }
     #head1{
-       position: relative;
-       left: -8%;
+        margin-left: 4px;
     }
     .link1{
        margin-left: -20px;
