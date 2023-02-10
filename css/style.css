@@ -27,9 +27,10 @@ body{
     background-color: #00008b;
     color: #fff;
     transition: 0.3s;
+    height: 85px;
 }
 .navbar{
-    margin-top: 0;
+    margin-top: 10px;
 }
 .navbar-toggler{
     background: none;
@@ -45,6 +46,11 @@ body{
 }
 .navbar-nav{
     margin-right: 160px;
+    margin-top: 6px;
+}
+#logo{
+    position: relative;
+    margin-top: 20%;
 }
 .navbar span{
     margin-left: 60px;
