@@ -79,6 +79,9 @@ body{
 }
 
 @media screen and (max-width:900px) {
+    .navbar{
+        margin-top: 4px;
+    }
     .nav-link{
         position: relative;
     }
@@ -87,6 +90,9 @@ body{
     }
     .navbar span{
       margin-left: 0px;
+    }
+    #active{
+        width: 53px;
     }
 }
 
