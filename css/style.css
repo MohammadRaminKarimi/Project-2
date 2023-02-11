@@ -58,7 +58,6 @@ body{
 .nav-link{
     position: relative;
 }
-
  .nav-link:after{
     content: "";
     position: absolute;
@@ -69,6 +68,9 @@ body{
     background-color: #fff;
 
 
+}
+ #active{
+    border-bottom: 2px solid #fff;
 }
 
 .nav-link:hover:after{
@@ -101,17 +103,17 @@ body{
 }
 .body-parag h1{
     position: absolute;
-    top: 48%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 58px;
+    font-size: 55px;
     text-align: center;
 }
 .body-parag a{
     font-size: 20px;
     text-decoration: none;
     color: #fff;
-    padding: 15px 60px;
+    padding: 15px 50px;
     border: 1px solid #fff;
     position: absolute;
     top: 72%;
@@ -177,7 +179,7 @@ body{
 }
 .about-bodys h1{
    letter-spacing: 2px;
-   font-size: 42px;
+   font-size: 36px;
 }
 
 .about-bodys h1:after{
@@ -235,7 +237,7 @@ body{
   }
   .about-bodys h1{
     margin-left: 0px;
-    font-size: 34px;
+    font-size: 32px;
   }
   .about-bodys h1:after{
     position: absolute;
@@ -534,8 +536,27 @@ form .btn:hover{
     top: 89%;
 }
 @media only screen and (max-width: 620px) {
+    .blogs h2{
+        position: relative;
+        margin-top: 15%;
+        left: -1%;
+    }
+    #text1{
+        width: 360px;
+
+    }
+    #text3{
+        width: 360px;
+    }
+    #links{
+        position: absolute;
+        top: 94%;
+    }
     .card-group{
         margin-left: -10px;
+    }
+    #cardss{
+        margin-top: 44px;
     }
 
     .card-body{
