@@ -15,6 +15,9 @@
 	font-size: 32px;
 	color: #fff;
 }
+.mobile-nav-toggle{
+	color: #fff;
+}
 #nav{
 	position: relative;
 	left: -20%;
