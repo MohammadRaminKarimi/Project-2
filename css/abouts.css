@@ -32,6 +32,7 @@ body{
 	background-color: #223855;
 	color: #fff;
 	position: sticky;
+	transition: .3s;
 }
 .navbar-toggler{
 	border: none;
@@ -180,8 +181,8 @@ body{
 		left: 12.5%;
 	}
 	.im img{
-		max-width: 106%;
-		height: 350px;
+		max-width: 109%;
+		height: 316px;
 		position: relative;
 		margin-left: -13%;
 	
