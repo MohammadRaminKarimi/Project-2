@@ -157,27 +157,27 @@
 
 @media screen and (max-width: 800px) {
 	.abouts{
-		height: 1100px;
+		position: relative;
+		height: 1070px;
 		width: 100%;
-		background-color: #E9f6ff;
 
 	}
 	.aboutme{
 		position: absolute;
-		top: 65%;
+		top: 10%;
 		left: 12.5%;
 	}
 	.im img{
-		max-width: 103%;
+		max-width: 106%;
 		height: 350px;
 		position: relative;
-		margin-left: -11%;
+		margin-left: -13%;
 	
 	}
 	.parag{
 		position: absolute;
 		top: 104%;
-		left: -8%;
+		left: -10%;
 		width: 420px;
 	}
 }
