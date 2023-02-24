@@ -115,9 +115,10 @@ body{
 	font-size: 65px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+	
 	.body h2{
-		margin-top: 210px;
+		
 		font-size: 53px;
 	}
 }
@@ -170,8 +171,9 @@ body{
 
 @media screen and (max-width: 800px) {
 	.abouts{
-		position: relative;
+		position: absolute;
 		height: 1065px;
+		top: 50%;
 		width: 100%;
 
 	}
