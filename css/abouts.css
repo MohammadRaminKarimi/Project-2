@@ -140,7 +140,7 @@ body{
 	}
  .im img{
 	width: 620px;
-	height: 510px;
+	height: 500px;
 }
 
 .parag{
@@ -197,3 +197,79 @@ body{
 	}
 }
 /* end about me */
+
+/* intro section */
+
+.intro{
+	position: relative;
+	margin-top: 8%;
+}
+.imaa img{
+	width: 680px;
+	height: 350px;
+	position: relative;
+	margin-left: 98%;
+}
+
+.intro h1{
+	position: relative;
+	font-size: 50px;
+	margin-top: -40%;
+}
+
+.intro h5{
+	position: relative;
+	margin-left: 19%;
+	margin-top: 5%;
+}
+
+.intro a{
+	position: absolute;
+	top: 115%;
+	left: 13%;
+	text-decoration: none;
+	color: #fff;
+	background-color: rgba(0,190,242,1);
+	padding: 17px 90px;
+}
+
+.intro a:hover{
+	background-color: #fff;
+	color: rgba(0,190,242,1);
+	border: 1px solid rgba(0,190,242,1);
+}
+
+@media screen and (max-width: 700px) {
+	.intro{
+       position: absolute;
+       top: 200%;
+       z-index: 999;
+	}
+
+	.imaa img{
+		position: relative;
+		max-width: 100%;
+		margin-left: 0%;
+		margin-top: 30%;
+	}
+
+	.intro h1{
+		position: relative;
+		margin-top: 10%;
+		margin-left: 5%;
+		font-size: 38px;
+		width: 400px;
+		text-align: center;
+	}
+	.intro h5{
+		position: relative;
+		margin-top: 7%;
+		margin-left: 19%;
+	}
+	.intro a{
+		position: absolute;
+		top: 104%;
+		left: 23%;
+	}
+}
+/* end intro section */
