@@ -203,78 +203,76 @@ body{
 
 /* intro section */
 
-.intro{
+.contactss{
 	position: relative;
-	margin-top: 8%;
-}
-.imaa img{
-	width: 680px;
-	height: 350px;
-	position: relative;
-	margin-left: 98%;
+	margin-top: 3%;
 }
 
-.intro h1{
-	position: relative;
-	font-size: 50px;
-	margin-top: -40%;
+.contactss-img img{
+	position: absolute;
+	top: 13%;
+	left: 52%;
+	width: 650px;
+	height: 320px;
 }
 
-.intro h5{
+  .contactss-body{
 	position: relative;
-	margin-left: 19%;
+	width: 500px;
+	margin-left: 10%;
+	margin-top: 30%;
+
+}
+.contactss-body h1{
+	font-size: 45px;
+	width: 700px;
+	letter-spacing: 3px;
+}
+.contactss-body p{
+	font-size: 19px;
+	position: relative;
+	margin-left: 27%;
 	margin-top: 5%;
 }
 
-.intro a{
-	position: absolute;
-	top: 115%;
-	left: 13%;
+.contactss-body a{
 	text-decoration: none;
 	color: #fff;
+	padding: 18px 80px;
+	position: absolute;
+	top: 138%;
+	left: 29%;
 	background-color: rgba(0,190,242,1);
-	padding: 17px 90px;
-}
-
-.intro a:hover{
-	background-color: #fff;
-	color: rgba(0,190,242,1);
-	border: 1px solid rgba(0,190,242,1);
 }
 
 @media screen and (max-width: 700px) {
-	.intro{
-       position: absolute;
-       top: 200%;
-       z-index: 999;
+	.contactss{
+		position: absolute;
+		top: 213%;
 	}
-
-	.imaa img{
-		position: relative;
-		max-width: 100%;
-		margin-left: -1%;
-		margin-top: 30%;
+	.contactss-img img{
+		position: absolute;
+		left: 3.3%;
+		height: 300px;
+		max-width: 95%;
 	}
-
-	.intro h1{
+	.contactss-body{
 		position: relative;
-		margin-top: 10%;
-		margin-left: 5%;
+		margin-top: 97%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+	}
+	.contactss-body h1{
 		font-size: 35px;
-		width: 370px;
+		width: 360px;
 		text-align: center;
 	}
-	.intro h5{
-		position: relative;
-		margin-top: 7%;
-		margin-left: 19%;
-		font-size: 18px;
+	.contactss-body p{
+		margin-left: 60px;
 	}
-	.intro a{
-		position: absolute;
-		top: 104%;
-		padding: 15px 69px;
-		left: 24%;
+	.contactss-body a{
+		margin-left: -78px;
+		margin-top: -10px;
 	}
 }
 /* end intro section */
