@@ -2,17 +2,20 @@
 	box-sizing: border-box;
 }
 
+html{
+   overflow-x: hidden;
+}
 body{
 	overflow-x: hidden;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 	body{
 		overflow-x: hidden;
-	}
-	html{
-		overflow-x: hidden;
-	}
+    }
+    html{
+      overflow-x: hidden;
+    }
 }
 /* image */
 
