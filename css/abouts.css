@@ -201,78 +201,95 @@ body{
 }
 /* end about me */
 
-/* intro section */
-
-.contactss{
+/* contactss section */
+.seeus{
 	position: relative;
-	margin-top: 3%;
-}
-
-.contactss-img img{
-	position: absolute;
-	top: 13%;
-	left: 52%;
-	width: 650px;
-	height: 320px;
-}
-
-  .contactss-body{
-	position: relative;
-	width: 500px;
+	margin-top: 70%;
 	margin-left: 10%;
-	margin-top: 30%;
-
 }
-.contactss-body h1{
-	font-size: 45px;
-	width: 700px;
-	letter-spacing: 3px;
-}
-.contactss-body p{
-	font-size: 19px;
+.texts{
 	position: relative;
-	margin-left: 27%;
-	margin-top: 5%;
+	margin-top: 20%;
+	margin-left: -9%;
 }
 
-.contactss-body a{
+.texts .texts-body h1{
+   font-size: 46px;
+   letter-spacing: 2px;
+}
+.texts .texts-body p{
+	font-size: 20px;
+	color: rgba(72,102,126,1);
+	position: relative;
+	margin-top: 4%;
+	margin-left: 20%;
+}
+
+.texts .texts-body a{
 	text-decoration: none;
 	color: #fff;
-	padding: 18px 80px;
 	position: absolute;
-	top: 138%;
-	left: 29%;
+	top: 131%;
+	left: 21%;
+	padding: 18px 85px;
 	background-color: rgba(0,190,242,1);
 }
 
-@media screen and (max-width: 700px) {
-	.contactss{
+.texts .texts-body a:hover{
+	background-color: #fff;
+	color: rgba(0,190,242,1);
+    border: 1px solid rgba(0,190,242,1);
+}
+.imagg{
+	position: relative;
+	margin-left: 92%;
+	margin-top: -32%;
+}
+
+.imagg img{
+	width: 658px;
+	height: 337px;
+}
+
+@media screen and (max-width: 650px) {
+	.seeus{
+		position:  absolute;
+		top: 190%;
+	}
+	.texts{
 		position: absolute;
-		top: 213%;
-	}
-	.contactss-img img{
-		position: absolute;
-		left: 3.3%;
-		height: 300px;
-		max-width: 95%;
-	}
-	.contactss-body{
-		position: relative;
-		margin-top: 97%;
-		transform: translate(-50%, -50%);
-		left: 50%;
-	}
-	.contactss-body h1{
-		font-size: 35px;
-		width: 360px;
+		top: 90%;
+		left: 0%;
 		text-align: center;
 	}
-	.contactss-body p{
-		margin-left: 60px;
+	.texts .texts-body h1{
+		font-size: 37px;
+		position: relative;
+		margin-left: 49.4%;
+		margin-top: 13%;
+		width: 450px;
+		transform: translate(-50%, -50%);
 	}
-	.contactss-body a{
-		margin-left: -78px;
-		margin-top: -10px;
+	.texts .texts-body p{
+		position: relative;
+		margin-top: -3%;
+		left: 29%;
+		transform: translate(-50%, -50%);
+	}
+	.texts .texts-body a{
+		position: absolute;
+		left: 23%;
+		top: 110%;
+	}
+	.imagg{
+		position: relative;
+		margin-left: -11.2%;
+		margin-top: 44%;
+	}
+	.imagg img{
+		max-width: 100%;
+	    height: 300px;
 	}
 }
+
 /* end intro section */
