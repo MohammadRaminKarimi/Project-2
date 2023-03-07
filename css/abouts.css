@@ -6,7 +6,7 @@ html, body{
 	overflow-x: hidden;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 441px) {
 	html, body{
 		overflow-x: hidden;
     }
