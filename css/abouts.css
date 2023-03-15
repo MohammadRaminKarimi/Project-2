@@ -1,30 +1,31 @@
 * {
+	
 	box-sizing: border-box;
+	
 }
-
-body{
+ body{
 	overflow-x: hidden;
 }
-@media (max-width: 600px) {
-	body{
-      overflow-x: hidden;
-	}
-	html{
+
+@media screen and (max-width: 768px) {
+	 body {
 		overflow-x: hidden;
 	}
-   
 }
+
 /* image */
 
 .images{
 	position: absolute;
 	left: 0;
 	top: 0;
-	filter: brightness(0.6);
-	object-fit: cover;
-	height: 50vh;
-	width: 100%;
-	overflow-x: hidden;
+    filter: brightness(0.6);
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+    overflow-x: hidden;
+
+	
 }
 
 
@@ -87,7 +88,7 @@ body{
 	transition: .3s;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 768px) {
 	.navbar span{
 		margin-left: 11px;
 	}
@@ -118,7 +119,7 @@ body{
 	font-size: 65px;
 }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 768px) {
 	
 	.body h2{
 		
@@ -172,7 +173,7 @@ body{
 	color: #fff;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 768px) {
 	.abouts{
 		position: absolute;
 		height: 1065px;
@@ -202,98 +203,5 @@ body{
 /* end about me */
 
 /* contactss section */
-.contactme{
-	position: relative;
-	margin-left: 5%;
-	margin-top: 11%;
-	display: flex;
-}
 
-.contactbody{
-	max-width: 400px;
-	float: left;
-
-}
-.contactbody h1{
-	font-size: 45px;
-	letter-spacing: 2px;
-	width: 600px;
-}
-.contactbody p{
-	font-size: 20px;
-	position: relative;
-	margin-top: 4%;
-	margin-left: 30%;
-}
-.contactbody a{
-	text-decoration: none;
-	position: absolute;
-	top: 60%;
-	left: 10.4%;
-	color: #fff;
-	font-size: 20px;
-	background-color: rgba(0,190,242,1);
-	padding: 17px 79px;
-
-
-}
-.contactbody a:hover{
-	background-color: #fff;
-	color: rgba(0,190,242,1) ;
-	border: 1px solid rgba(0,190,242,1);
-}
-
-.contactme img {
-	width: 650px;
-    height: 319px;
-    background-position: center;
-    position: relative;
-    margin-left: 150%;
-    margin-top: -50%;
-
-
-}
-
-@media (max-width: 600px) {
-	.contactme{
-		position: absolute;
-		top: 117%;
-		left: 51%;
-		transform: translate(-50%, -50%);
-	}
-	.contactbody{
-		position: relative;
-		margin-left: 13%;
-		margin-top: 380%;
-	}
-	.contactme img{
-		position: relative;
-		margin-left: -6.7%;
-		margin-top: -135%;
-		max-width: 440px;
-		max-height: 270px;
-	}
-	.contactbody h1{
-		font-size: 33px;
-		position: relative;
-		margin-top: 90%;
-		margin-left: 34%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-	}
-	.contactbody p{
-		position: relative;
-		text-align: center;
-		margin-top: 1%;
-		margin-left: -33%;
-	}
-
-	.contactbody a{
-		position: absolute;
-		top: 105%;
-        left: 6%;
-        padding: 16px 70px;
-	}
-    
-}
 /* end intro section */
