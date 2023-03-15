@@ -5,10 +5,9 @@
 body{
 	overflow-x: hidden;
 }
-@media screen and (max-width: 441px) {
+@media (max-width: 600px) {
 	body{
       overflow-x: hidden;
-      overflow-y: hidden;
 	}
 	html{
 		overflow-x: hidden;
