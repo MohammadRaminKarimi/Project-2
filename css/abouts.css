@@ -203,5 +203,73 @@
 /* end about me */
 
 /* contactss section */
+.cont{
+	
+	position: relative;
+	margin-top: 6%;
+	height: 150px;
+}
+.imgg img{
+	width: 620px;
+	height: 320px;
+	position: absolute;
+	top: 90%;
+	left: 74%;
+	transform: translate(-50%, -50%);
+
+
+}
+.cont .cont-body h1{
+	float: left;
+	font-size: 45px;
+	letter-spacing: 2px;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 7%;
+}
+.cont .cont-body p{
+	font-size: 19px;
+	float: left;
+	position: relative;
+	margin-left: 33%;
+	margin-top: 1%;
+}
+.cont .cont-body a{
+	text-decoration: none;
+	color: #fff;
+	background-color: rgba(0,190,242,1);
+	padding: 17px 78px;
+	position: absolute;
+	top: 120%;
+	left: 19.3%;
+}
+.cont .cont-body a:hover{
+	color: rgba(0,190,242,1);
+	background-color: #fff;
+	border: 1px solid rgba(0,190,242,1);
+}
+
+
+@media only screen and (max-width: 600px) {
+	.cont{
+		position: absolute;
+		top: 232%;
+		right: 40%;
+		left: -2%;
+		
+	}
+
+	.imgg img{
+		width: 158%;
+		height: 300px;
+		position: relative;
+		margin-top: 25%;
+		margin-left: 12%;
+		object-fit: cover;
+		object-position: bottom;
+
+
+	}
+}
 
 /* end intro section */
