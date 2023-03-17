@@ -1,16 +1,27 @@
 * {
-	
 	box-sizing: border-box;
-	
+}
+@viewport {
+	width: device-width;
+	zoom: 1.0;
 }
  body{
+ 	margin: 0;
+ 	padding: 0;
 	overflow-x: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	 body {
+		max-width: 100%;
 		overflow-x: hidden;
 	}
+
+	html{
+		overflow-x: hidden;
+		width: 100%;
+	}
+	
 }
 
 /* image */
@@ -122,8 +133,20 @@
 @media (max-width: 768px) {
 	
 	.body h2{
-		
-		font-size: 53px;
+		font-size: 8.6vh;
+	}
+
+	.images{
+		position: absolute;
+		left: 0;
+	   top: 0;
+      filter: brightness(0.6);
+      object-fit: cover;
+      height: 45vh;
+      width: 100%;
+      overflow-x: hidden;
+
+
 	}
 }
 
@@ -176,8 +199,8 @@
 @media (max-width: 768px) {
 	.abouts{
 		position: absolute;
-		height: 1065px;
-		top: 50%;
+		height: 970px;
+		top: 45.3%;
 		width: 100%;
 
 	}
@@ -187,10 +210,12 @@
 		left: 12.5%;
 	}
 	.im img{
-		max-width: 112%;
-		height: 307px;
+		width: 110%;
+		height: 270px;
+		object-fit: cover;
+		object-position: bottom;
 		position: relative;
-		margin-left: -13%;
+		right: 13%;
 	
 	}
 	.parag{
@@ -249,26 +274,40 @@
 	border: 1px solid rgba(0,190,242,1);
 }
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 	.cont{
 		position: absolute;
-		top: 232%;
-		right: 40%;
-		left: -2%;
-		
+		top: 205%;
+		right: 18%;
 	}
-
-	.imgg img{
-		width: 158%;
-		height: 300px;
-		position: relative;
-		margin-top: 25%;
-		margin-left: 12%;
+	 .imgg img{
+		width: 110%;
+		height: 270px;
+		position: absolute;
+		top: 70%;
+		left: 61%;
+		transform: translate(-50%, -50%);
 		object-fit: cover;
 		object-position: bottom;
+	}
 
-
+	.cont-body{
+		margin-top: 250px;
+	}
+	#heads{
+		font-size: 33px;
+		text-align: center;
+		margin-left: 86px;
+	}
+	#pags{
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.cont .cont-body a{
+		position: absolute;
+		top: 287%;
+		left: 35.4%;
+		padding: 16px 65px;
 	}
 }
 
