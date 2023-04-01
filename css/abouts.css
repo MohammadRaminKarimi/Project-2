@@ -1,17 +1,12 @@
 * {
 	box-sizing: border-box;
 }
-@viewport {
-	width: device-width;
-	zoom: 1.0;
-}
+
  body{
- 	margin: 0;
- 	padding: 0;
 	overflow-x: hidden;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 450px) {
 	 body {
 		max-width: 100%;
 		overflow-x: hidden;
@@ -274,7 +269,7 @@
 	border: 1px solid rgba(0,190,242,1);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 700px) {
 	.cont{
 		position: absolute;
 		top: 205%;
@@ -312,3 +307,136 @@
 }
 
 /* end intro section */
+
+/* Footer Section */
+
+footer{
+	position: relative;
+	background-color: rgba(34,56,85,1);
+	margin-top: 15%;
+	width: 100%;
+	height: 375px;
+}
+
+.footer{
+	position: relative;
+	margin-left: 7%;
+	color: #fff;
+	
+}
+#head0{
+	font-family: monospace;
+	margin-top: -10px;
+}
+#head1{
+	position: relative;
+	margin-left: 17%;
+	margin-top: 5%;
+	font-family: monospace;
+	font-size: 19px;
+}
+#head2{
+	font-family: monospace;
+	font-size: 19px;
+}
+#head3{
+	font-family: monospace;
+	font-size: 19px;
+}
+.link1{
+	position: relative;
+	margin-left: 15%;
+
+}
+
+.footer ul li {
+	list-style: none;
+	line-height: 1.5em;
+}
+.link2{
+	position: relative;
+	margin-top: 5%;
+	margin-left:-10%;
+}
+.link3{
+	position: relative;
+	margin-left: -10%;
+	margin-top: 5%;
+}
+.ico{
+	color: #fff;
+	font-size: 30px;
+}
+.ico a{
+	letter-spacing: 10px;
+	color: #fff;
+}
+
+#pag3{
+	position: relative;
+	margin-top: 20%;
+}
+
+.footer:after{
+	content: "";
+	position: absolute;
+	top: 82%;
+	width: 108%;
+	height: 1px;
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+	left: -8%;
+}
+
+@media only screen and (max-width: 770px) {
+	footer {
+		display: flex;
+		position: absolute;
+		top: 286%;
+		height: 975px;
+
+	}
+	.footer{
+		position: relative;
+		margin-left: 0%;
+	}
+	#head0{
+		font-size: 4vh;
+	}
+	#pag1{
+		width: 380px;
+		line-height: 1.5em;
+	}
+	#head1{
+		position: relative;
+		margin-left: 0%;
+	}
+	.link1{
+		position: relative;
+		margin-left: -5%;
+	}
+	.link2{
+		position: relative;
+		margin-left: -6%;
+	}
+	.link3{
+		position: relative;
+		margin-left: -6%;
+	}
+
+	.footer:after{
+		content: "";
+	    position: absolute;
+	    top: 93%;
+	    width: 108%;
+	    height: 1px;
+	    background-color: #fff;
+	    border-bottom: 1px solid #fff;
+	    left: -8%;
+	}
+	#col4{
+		margin-top: -11%;
+	}
+}
+
+/* End Footer Section */
