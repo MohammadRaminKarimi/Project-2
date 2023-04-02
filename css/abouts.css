@@ -393,7 +393,7 @@ footer{
 		display: flex;
 		position: absolute;
 		top: 286%;
-		height: 975px;
+		height: 840px;
 
 	}
 	.footer{
@@ -407,21 +407,35 @@ footer{
 		width: 380px;
 		line-height: 1.5em;
 	}
+	
 	#head1{
-		position: relative;
-		margin-left: 0%;
+		position: absolute;
+		left: -14%;
+		top: 21%;
 	}
 	.link1{
 		position: relative;
 		margin-left: -5%;
+		margin-top: 3%;
+		line-height: 7em;
+	}
+	#head2{
+       position: absolute;
+       top: 47%;
+       left: 3%;
 	}
 	.link2{
 		position: relative;
-		margin-left: -6%;
+		margin-left: -5%;
+	}
+	#head3 {
+       position: absolute;
+       top: 65.5%;
+       left: 3%;
 	}
 	.link3{
 		position: relative;
-		margin-left: -6%;
+		margin-left: -5%;
 	}
 
 	.footer:after{
@@ -435,7 +449,7 @@ footer{
 	    left: -8%;
 	}
 	#col4{
-		margin-top: -11%;
+		margin-top: -10%;
 	}
 }
 
