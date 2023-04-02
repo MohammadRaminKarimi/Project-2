@@ -8,15 +8,13 @@ html{
 	overflow-x: hidden;
 }
 
-@media only screen and (max-width: 770px) {
-	 body {
+@media only screen and (min-width: 700px) {
+	body{
 		overflow-x: hidden;
 	}
-
 	html{
 		overflow-x: hidden;
 	}
-	
 }
 
 /* image */
@@ -393,7 +391,7 @@ footer{
 		display: flex;
 		position: absolute;
 		top: 286%;
-		height: 840px;
+		height: 820px;
 
 	}
 	.footer{
@@ -423,8 +421,7 @@ footer{
 	.footer #head2{
 		position: absolute;
 		top: 50%;
-		left: 11%;
-		transform: translate(-50%, -50%);
+		left: 3%;
 	}
 	.footer .link2{
 		position: relative;
@@ -451,8 +448,8 @@ footer{
 	   left: -8%;
 	}
 	#col4{
-		position: relative;
-		margin-top: -10%;
+		position: absolute;
+		top: 82%;
 	}
 }
 
