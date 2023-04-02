@@ -39,7 +39,7 @@ html{
 .sticky{
 	background-color: #223855;
 	color: #fff;
-	position: sticky;
+	position: fixed;
 	transition: .3s;
 }
 .navbar-toggler{
@@ -150,7 +150,7 @@ html{
 .abouts{
 	background-color: #E9f6ff;
 	width: 100%;
-	height: 900px;
+	height: 950px;
 }
 
 .aboutme{
