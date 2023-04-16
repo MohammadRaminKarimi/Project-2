@@ -7,10 +7,17 @@
 body{
 	overflow-x: hidden;
 }
-@media screen and (max-width: 770px) {
+html{
+   overflow-x: hidden;
+}
+@media screen and (max-width: 900px) {
 	body{
 		overflow-x: hidden;
 
+	}
+
+	html{
+		overflow-x: hidden;
 	}
 }
 .navbar{
@@ -124,13 +131,15 @@ body{
 	left: 35%;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 600px) {
 	.service{
 		position: absolute;
-		margin-top: 10%;
-		margin-left:10%;
-		align-items: center;
+		top: 145%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+		overflow-x: hidden;
 	}
+	
 	.img img{
 		width: 360px;
 		height: 205px;
