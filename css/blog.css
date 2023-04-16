@@ -127,10 +127,13 @@ body{
 @media only screen and (max-width: 770px) {
 	.service{
 		position: absolute;
-		margin-top: 113%;
-		margin-left: 53%;
-		transform: translate(-50%, -50%);
+		margin-top: 10%;
+		margin-left:10%;
 		align-items: center;
+	}
+	.img img{
+		width: 360px;
+		height: 205px;
 	}
 	#col-1{
 		margin-bottom: 25px;
@@ -142,7 +145,7 @@ body{
 	}
 	#parag-1{
 		position: relative;
-		width: 400px;
+		width: 370px;
 		margin-top: 15%;
 	}
 	#head-2{
