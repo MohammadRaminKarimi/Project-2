@@ -131,11 +131,11 @@ html{
 	left: 35%;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 600px) {
 	.service{
 		position: absolute;
 		top: 38%;
-		left: 28%;
+		left: 26%;
 		transform: translate(-50%);
 	}
 	
@@ -149,11 +149,11 @@ html{
 	#head-1{
 		position: absolute;
 		left: 6%;
-		top: 19%;
+		top: 19.5%;
 	}
 	#parag-1{
 		position: relative;
-		width: 370px;
+		width: 350px;
 		margin-top: 15%;
 	}
 	#head-2{
