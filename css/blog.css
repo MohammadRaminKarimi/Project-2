@@ -14,15 +14,13 @@ body{
 html{
    overflow-x: hidden;
 }
-@media screen and (max-width: 900px) {
-	body{
+@media only screen and  (max-width: 770px) {
+    html, body{
 		overflow-x: hidden;
 
-	}
+	 }
 
-	html{
-		overflow-x: hidden;
-	}
+	
 }
 .navbar{
 	margin-top: 10px;
@@ -89,10 +87,11 @@ html{
 	.navbar{
 		margin-top: 0;
 		margin-left: 0px;
+		line-height: 0.8em;
 	}
 
 	.image{
-	 background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url(../image/123.jpg);
+	 background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url(../image/123.jpg);
 	 position: absolute;
 	 height: 330px;
 	 top: 0%;
