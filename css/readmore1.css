@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+#logo1{
+	font-family: Monospaced font;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+	#logo1{
+		font-size: 5vh;
+	}
+}
+
+
+.navbar{
+	margin-top: 0;
+	z-index: 999;
+}
+
+.navbar-toggler{
+	border: none;
+	outline: none;
+	color: #fff;
+}
+.navbar-toggler .mobile-nav-toggle{
+	color: #fff;
+	font-size: 31px;
+}
+
+.navbar-nav {
+	margin-right: 220px;
+}
+.nav-link{
+	margin-left: 20px;
+}
+
+.iimage{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)) ,  url(../image/12.webp);
+    height: 359px;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0%;
+}
+
+.iimage h1{
+	position: absolute;
+	top: 64%;
+	font-size: 65px;
+	font-family: montserrate;
+	left: 10%;
+	letter-spacing: 3px;
+	color: #fff;
+}
+.iimage p{
+	position: absolute;
+	top: 86%;
+	left: 10.3%;
+	color: #fff;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
+	.iimage{
+		position: absolute;
+		height: 300px;
+	}
+	.iimage h1{
+		position: absolute;
+		top: 50%;
+		font-size: 50px;
+		left: 7%;
+	}
+	.iimage p{
+		position: absolute;
+		top: 71%;
+		left: 10%;
+		left: 7.2%;
+	}
+}
